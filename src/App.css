@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/c/1a/kurochka-zapechennaia-kuritsa-zapechennaia-morkov-iabloki-ov.jpg)
+}
+
+.nav {
+  border-bottom: 1px solid rgb(214, 149, 27);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 0 30px;
+  align-items: center;
+  background-color: #0000005c;
+}
+
+.nav img {
+  width: 80px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 10px;
+  background-color: #1e181899;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.links a:hover {
+  background-color: rgb(255, 168, 37);
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10vh;
+  padding: 20px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.685);
+  gap: 20px;
+  padding: 40px 20px 20px 20px;
+  border-radius: 12px;
+  border: 1px solid orange;
+
+}
+
+.form form input,
+.form form select {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  color: orange;
+  outline: none;
+  background-color: rgba(7, 7, 7, 0.795);
+}
+
+.form h2 {
+  color: #ffde25;
+  text-align: center;
+  font-size: 25px;
+  max-width: 500px;
+  background-color: rgba(29, 28, 28, 0.39);
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.meals h2 {
+  color: #ffde25;
+  text-align: center;
+  font-size: 25px;
+  max-width: 500px;
+  background-color: rgba(29, 28, 28, 0.39);
+  padding: 5px;
+  border-radius: 12px;
+}
+
+
+.agree {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: orange;
+}
+
+input:checked {
+  border: none;
+  outline: 2px solid deeppink;
+  background-color: red;
+  color: red;
+}
+
+.Btn {
+  background-color: rgb(255, 222, 37);
+  padding: 10px;
+  border-radius: 12px;
+  color: rgb(58, 23, 10);
+  border: none;
+}
+
+.Btn:hover {
+  background-color: rgb(255, 168, 37);
+  color: white;
+}
+
+.meals {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.meal {
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  gap: 15px;
+  position: relative;
+  border-radius: 8px;
+  flex-direction: column;
+  border: 1px solid orange;
+  color: white;
+  background-color: rgba(10, 10, 10, 0.877);
+
+}
+
+.edit-meal {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-meal input,
+.edit-meal select {
+  padding: 5px;
+  border-radius: 4px;
+  color: orange;
+  outline: none;
+  background-color: rgba(7, 7, 7, 0.795);
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 222, 37);
+  border-radius: 12px;
+  color: rgb(58, 23, 10);
+  border: none;
+
+}
+
+.title {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffde25;
+  background: rgba(29, 28, 28, 0.39);
+  padding: 10px;
+  border-radius: 20px
+}
+
+.option {
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.option:hover {
+  background-color: #ffde25;
+  color: white;
+}
